@@ -1,3 +1,4 @@
 import pandas as pd
-df = pd.read_csv('/Users/khalid/KYA/AI/week1/housing.csv')
+df = pd.read_csv('housing.csv')
 df.info()
+print(df.head())
